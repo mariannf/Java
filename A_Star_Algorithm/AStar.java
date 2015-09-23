@@ -49,7 +49,7 @@ public class AStar extends JFrame implements ActionListener{
 				//JButton button = new JButton(btnName[i]);
 				button[i][j] = new JButton(i + ", "+(j));
 
-				if(Math.random() < 0.1){ /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+				if(Math.random() < 0.1){ 
 
 					button[(i)][j].setBackground(Color.black);
 					add(button[i][j]);
