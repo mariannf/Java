@@ -1,0 +1,10 @@
+/* A Star algorithm using the Manhattan method
+ *
+ * It is a 15x15 tile-based world that randomly generates nodes that are unpathable (blocks) in 10% of the nodes.  This is   
+ * done each time the program compiles ensuring that there are different environment makeups each run.  The program displays 
+ * the generated environment when the program runs, and allows the user to select a starting node and goal node.  This is   
+ * done via with a GUI.  Once the start and goal nodes have been defined, the program runs the A* algorithm to find a path.  
+ * The path displayed (series of [x,y] nodes, highlighting nodes, or actually moving the agent) if one exists, or a message  
+ * indicating that a path could not be found.  The user is able to continue specifying starting and goal nodes after paths   
+ * have been found.
+ */

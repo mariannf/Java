@@ -1,0 +1,12 @@
+/* Towers of Hanoi
+ *
+ * The Towers of Hanoi puzzle has n disks of different sizes that can slide onto any of three pegs.  
+ * Initially, all the disks are on the first peg in order of size, the largest on the bottom and the smallest on top.  
+ * The goal is to move all the disks to the third peg, using the second one as an auxiliary, if necessary. 
+ * We can move only one disk at a time, and it is forbidden to place a larger disk on top of a smaller one. 
+ * 
+ * This program solves the Towers of Hanoi problem using recursion. (No hard-coding!) 
+ * The user must be able to specify the number of starting disks (1 < n < 8). 
+ * At the start and each time a disk is moved, you should output the state of the entire domain so it is clear which
+ * disk was moved and to where.  I represent each disk with an integer (smaller numbers indicate smaller disks). 
+ */
